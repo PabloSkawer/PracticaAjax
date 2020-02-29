@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gatitos</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Búsqueda de fotos de gatos</h1>
+        
+            <label for="categoria">Selecciona una categoria </label>
+            <select id="categoria">
+                <option value="none">none</option>
+            </select>
+            <br>
+            <label for="breed">Raza</label>
+            <select id="breed">
+                  <option value="none">none</option>
+            </select>
+            <br>
+           
+            <button id="buscar">Buscar por categoria</button>
+            <button id="buscar2">Buscar por Raza</button>
+            <center>
+            <ul id="resultado"></ul><br><br>
+            <button id="anterior"><</button>
+            <span id="actual" style="width: 10px;">1</span>
+            <button id="posterior">></button>
+        <button id="ultimap">Ultima</button></center>
+    
+    </div>
+    <script src="codiguito.js"></script>
+</body>
+</html>
