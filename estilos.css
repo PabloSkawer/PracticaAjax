@@ -1,0 +1,13 @@
+body{
+    background-color: white;
+}
+.container{
+    background-color:rgb(228, 225, 225);
+    margin: 5%;
+}
+#fondito{
+    background-color: rgb(228, 222, 222);
+}
+#cat{
+    display: none;
+}
